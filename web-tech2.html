@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web-tech2</title>
+    <link rel="stylesheet" href="./web-tech2.css">
+    <style>
+        h1{
+            float:right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Лабораторна робота №2</h1>
+    <h2 id="hf">Варіант 1</h2>
+    <p style="text-align: left;">The element is removed from the normal document flow, and no space is created for the element in the page layout. 
+        It is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed relative to the initial 
+        containing block. Its final position is determined by the values of top, right, bottom, and left.</p>
+    <h3>Частина 1</h3>
+    <div class="radiobutton">
+        <input id="r1" type="radio" name="switch">
+        <label for="r1" class="radio_label1">Зміна кольору тексту</label><br>
+        <input id="r2" type="radio" name="switch">
+        <label for="r2" class="radio_label2">Зміна кольору фону</label><br>
+        <input id="r3" type="radio" name="switch">
+        <label for="r3" class="radio_label3">Зміна шрифту на курсив</label><br>
+    </div>
+    <h3>Частина 2</h3>
+    <div class="flexbox">
+        <div class="flexbox_item" style="background-color:green; order:3">
+            <p>Я ПЕРВЫЙ</p>
+        </div>
+        <div class="flexbox_item" style="background-color:blue; order:4">
+            <p>Я ВТОРОЙ</p>
+        </div>
+        <div class="flexbox_item" style="background-color:blue; order:1">
+            <p>Я ТРЕТИЙ</p>
+        </div>
+        <div class="flexbox_item" style="background-color:red; order:2">
+            <p>Я ЧЕТВЕРТЫЙ</p>
+        </div>
+    </div>
+</body>
+</html>

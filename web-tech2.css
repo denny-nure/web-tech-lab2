@@ -1,0 +1,32 @@
+.flexbox{
+    display: inline-flex;
+    background-color:darkgray;
+    width: 1000px;
+    height: 70px;
+    justify-content: center;
+}
+
+.flexbox_item{
+    margin: 10px 10px 10px 10px;
+}
+
+p{
+    text-align:center;
+}
+
+#hf{
+    position: absolute;
+    color:red;
+}
+
+#r1:checked ~ .radio_label1{
+    color:red;
+}
+
+#r2:checked ~ .radio_label2{
+    background-color: blue;
+}
+
+#r3:checked ~ .radio_label3{
+    font-style: italic;
+}
